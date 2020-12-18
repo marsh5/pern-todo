@@ -18,7 +18,8 @@ function ListTodos() {
         }
     }
 
-    
+    // get todos
+
     const getTodos = async () => {
         try {
             

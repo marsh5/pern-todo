@@ -9,8 +9,6 @@ app.use(express.json());
 
 // ROUTES
 
-// create a todo
-
 // the ,[description] is the $1
 app.post('/todos', async (req,res) => {
     try {
